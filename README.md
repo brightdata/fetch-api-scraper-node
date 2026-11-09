@@ -426,3 +426,11 @@ Anything about the API, your account or your credits:
 ## URL to Markdown for Python
 
 The same URL to Markdown scraper is available for Python: [brightdata/fetch-api-scraper](https://github.com/brightdata/fetch-api-scraper).
+
+## More open source scrapers from Bright Data
+
+Other Node.js scrapers built the same way, with live-verified examples:
+
+- [ChatGPT scraper for Node.js](https://github.com/brightdata/chatgpt-scraper-node)
+- [Amazon scraper for Node.js](https://github.com/brightdata/amazon-scraper-node)
+- [LinkedIn scraper for Node.js](https://github.com/brightdata/linkedin-scraper-node)
