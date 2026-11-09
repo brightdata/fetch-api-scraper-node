@@ -63,7 +63,7 @@ jobs:
           const block = (text, lang) =>
             new RegExp("```" + lang + "\\n([\\s\\S]*?)```").exec(text)[1];
 
-          const quick = section("How to scrape any web page to Markdown with Node.js");
+          const quick = section("How to convert a URL to Markdown with Node.js");
           const snippet = block(quick, "javascript");
           const command = block(section("Bulk URL to Markdown CLI"), "bash");
           for (const [required, where] of [
