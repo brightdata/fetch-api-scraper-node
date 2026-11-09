@@ -1,18 +1,18 @@
 # URL to Markdown for Node.js with the Bright Data Fetch API
 
 Convert any URL to Markdown, text, HTML or JSON-LD with Node.js and JavaScript, for LLMs and RAG. Gets past bot blocks. No dependencies.
-Built on the [Bright Data Fetch API](https://docs.brightdata.com/products/scrapers/fetch-api/introduction). New accounts get 5,000 free credits a month.
+Built on the [Bright Data Fetch API](https://docs.brightdata.com/products/scrapers/fetch-api/introduction?utm_source=github&utm_medium=referral&utm_content=fetch-api-scraper-node). New accounts get 5,000 free credits a month.
 
 [![Live check](https://github.com/brightdata/fetch-api-scraper-node/actions/workflows/live.yml/badge.svg)](https://github.com/brightdata/fetch-api-scraper-node/actions/workflows/live.yml)
 [![last verified](https://img.shields.io/badge/last%20verified-9%20Nov%202026-brightgreen)](https://github.com/brightdata/fetch-api-scraper-node/actions/workflows/live.yml) <!-- verified: rewritten by the daily run -->
 
-[Quickstart](#how-to-convert-a-url-to-markdown-with-nodejs) · [Any website](#scrape-any-website-even-ones-that-block-bots) · [CLI](#bulk-url-to-markdown-cli) · [Formats](#website-to-markdown-text-html-and-json-ld-for-llms) · [Data](#fetch-api-data-fields-json) · [Errors](#fetch-api-scraper-errors) · [MCP and Claude Code](#fetch-api-mcp-server-and-claude-code-skill) · [Free credits](#is-the-fetch-api-free) · [Docs](https://docs.brightdata.com/products/scrapers/fetch-api/introduction) · [Support](#support)
+[Quickstart](#how-to-convert-a-url-to-markdown-with-nodejs) · [Any website](#scrape-any-website-even-ones-that-block-bots) · [CLI](#bulk-url-to-markdown-cli) · [Formats](#website-to-markdown-text-html-and-json-ld-for-llms) · [Data](#fetch-api-data-fields-json) · [Errors](#fetch-api-scraper-errors) · [MCP and Claude Code](#fetch-api-mcp-server-and-claude-code-skill) · [Free credits](#is-the-fetch-api-free) · [Docs](https://docs.brightdata.com/products/scrapers/fetch-api/introduction?utm_source=github&utm_medium=referral&utm_content=fetch-api-scraper-node) · [Support](#support)
 
 Convert any URL to Markdown for an LLM, in JavaScript: send a web page URL, get
 back the page as Markdown, plain text, raw HTML and JSON-LD structured data,
 with its title and final URL. From any country, past bot blocks, with no
 browser and no dependencies. Built on the
-[Bright Data Fetch API](https://docs.brightdata.com/products/scrapers/fetch-api/introduction).
+[Bright Data Fetch API](https://docs.brightdata.com/products/scrapers/fetch-api/introduction?utm_source=github&utm_medium=referral&utm_content=fetch-api-scraper-node).
 
 Also here: a one-command CLI for a list of URLs, and the
 [Bright Data CLI](#fetch-api-mcp-server-and-claude-code-skill), which needs no JavaScript at all.
@@ -138,7 +138,7 @@ https://example.com/this-page-does-not-exist failed: The navigation resulted in 
 ## Website to Markdown, text, HTML and JSON-LD for LLMs
 
 The Fetch API is one scraper with one input, documented in the
-[Fetch API docs](https://docs.brightdata.com/products/scrapers/fetch-api/introduction).
+[Fetch API docs](https://docs.brightdata.com/products/scrapers/fetch-api/introduction?utm_source=github&utm_medium=referral&utm_content=fetch-api-scraper-node).
 Every snippet below is complete: paste it as is after the `npm install`
 above. Every one of them runs in Actions each Monday, a smaller check runs
 every other day, and the badge at the top is the latest result.
