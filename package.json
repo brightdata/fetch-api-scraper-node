@@ -1,0 +1,36 @@
+{
+  "name": "@brightdata/fetch-api-scraper-node",
+  "version": "0.1.0",
+  "description": "Fetch API scraper in JavaScript: any public web page as Markdown, plain text, HTML and JSON-LD, ready for an LLM, on the Bright Data Fetch API. Gets past bot blocks with no browser and no dependencies. 5,000 free credits a month.",
+  "private": true,
+  "type": "module",
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=20"
+  },
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "bin": {
+    "fetch-api-scraper": "src/cli.js"
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "test": "node --test tests/",
+    "lint": "oxlint src tests"
+  },
+  "devDependencies": {
+    "oxlint": "^1.83.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brightdata/fetch-api-scraper-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/brightdata/fetch-api-scraper-node/issues"
+  },
+  "homepage": "https://github.com/brightdata/fetch-api-scraper-node#readme"
+}
