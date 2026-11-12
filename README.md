@@ -4,7 +4,7 @@ Convert any URL to Markdown, text, HTML or JSON-LD with Node.js and JavaScript, 
 Built on the [Bright Data Fetch API](https://docs.brightdata.com/products/scrapers/fetch-api/introduction?utm_source=github&utm_medium=referral&utm_content=fetch-api-scraper-node). New accounts get 5,000 free credits a month.
 
 [![Live check](https://github.com/brightdata/fetch-api-scraper-node/actions/workflows/live.yml/badge.svg)](https://github.com/brightdata/fetch-api-scraper-node/actions/workflows/live.yml)
-[![last verified](https://img.shields.io/badge/last%20verified-11%20Nov%202026-brightgreen)](https://github.com/brightdata/fetch-api-scraper-node/actions/workflows/live.yml) <!-- verified: rewritten by the daily run -->
+[![last verified](https://img.shields.io/badge/last%20verified-11%20Nov%202026-brightgreen)](https://github.com/brightdata/fetch-api-scraper-node/actions/workflows/live.yml) <!-- verified: rewritten by the weekly run -->
 
 [Quickstart](#how-to-convert-a-url-to-markdown-with-nodejs) · [Any website](#scrape-any-website-even-ones-that-block-bots) · [CLI](#bulk-url-to-markdown-cli) · [Formats](#website-to-markdown-text-html-and-json-ld-for-llms) · [Data](#fetch-api-data-fields-json) · [Errors](#fetch-api-scraper-errors) · [MCP and Claude Code](#fetch-api-mcp-server-and-claude-code-skill) · [Free credits](#is-the-fetch-api-free) · [Docs](https://docs.brightdata.com/products/scrapers/fetch-api/introduction?utm_source=github&utm_medium=referral&utm_content=fetch-api-scraper-node) · [Support](#support)
 
@@ -303,7 +303,7 @@ The code hardcodes no field list. Whatever the API returns lands in each
 record, and in the command's file.
 
 <!-- fields:start -->
-Regenerated every day from the published schema,
+Regenerated every week from the published schema,
 [scrapers-full.json](https://docs.brightdata.com/scrapers-full.json), so they cannot go stale. A record
 carries the fields that apply to it, plus `timestamp` and `input`; the
 sample file's first page has 9 keys.

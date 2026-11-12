@@ -50,7 +50,7 @@ const first = sample.pages[0].page;
 
 const lines = [
   START,
-  "Regenerated every day from the published schema,",
+  "Regenerated every week from the published schema,",
   `[scrapers-full.json](${SOURCE}), so they cannot go stale. A record`,
   "carries the fields that apply to it, plus `timestamp` and `input`; the",
   `sample file's first page has ${Object.keys(first).length} keys.`,
